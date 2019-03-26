@@ -22,14 +22,16 @@ module.exports = {
                 {   test: /\.html$/,
                     use: [{
                     loader: 'html-loader'
-                }]}
+                }
+                ]
+               }
         ]
-        },
+    },
     plugins: [
-        new HtmlWebPackPlugin([
+        new HtmlWebPackPlugin(
             {template: './src/index.html',
              file: './index.html'
             }
-        ])
+        )
     ]
 };
