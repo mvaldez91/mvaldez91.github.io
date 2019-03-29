@@ -43,6 +43,13 @@ const github = {
     color: "#333"
 };
 
+const getColor = (name) =>{
+    if(name === 'facebook') return facebook;
+    if (name === 'twitter') return twitter;
+    if (name === 'linkedin') return linkedin;
+    if (name === 'github') return github;
+}
+
 const Social = props =>(
     <SocialStyle>
         {props.social &&
@@ -50,7 +57,9 @@ const Social = props =>(
                 {props.social.map((item, index)=>
                   <SocialLi key={`social-${index}`}>
                       <SocialAnchor href={item.url} target="_blank">
-                           <SocialIcon className={`fab fa-${item.name}`}></SocialIcon>
+                          <ThemeProvider theme={getColor(item.name)}>
+                              <SocialIcon className={`fab fa-${item.name}`}></SocialIcon>
+                          </ThemeProvider>
                       </SocialAnchor>
                   </SocialLi>
                 )}

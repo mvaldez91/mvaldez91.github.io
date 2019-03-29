@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b0e4119-c237-4103-a3e4-fad45b9e8b76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/H2Styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/H3Styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/PStyled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Certificate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Certificate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Education.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Social.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,14 +54,14 @@
           <entry key="html" value="99" />
           <entry key="js" value="1384" />
           <entry key="json" value="108" />
-          <entry key="jsx" value="6494" />
+          <entry key="jsx" value="6772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="99" />
           <entry key="JSON" value="222" />
-          <entry key="JSX Harmony" value="6494" />
+          <entry key="JSX Harmony" value="6772" />
           <entry key="JavaScript" value="1384" />
           <entry key="PLAIN_TEXT" value="125" />
         </counts>
@@ -94,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Social.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="442">
+              <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -336,12 +324,12 @@
       <workItem from="1553647728460" duration="6509000" />
       <workItem from="1553741817917" duration="1090000" />
       <workItem from="1553742938579" duration="328000" />
-      <workItem from="1553743423004" duration="5097000" />
+      <workItem from="1553743423004" duration="5326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20055000" />
+    <option name="totallyTimeSpent" value="20284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +344,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1032666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1032666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -370,7 +358,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.27193934" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49736565" visible="true" weight="0.27193934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49736565" visible="true" weight="0.27193934" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -557,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Social.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="442">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
