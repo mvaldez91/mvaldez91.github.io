@@ -20,7 +20,9 @@
   "homepage": "https://github.com/mvaldez91/myCV#readme",
   "dependencies": {
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "styled-components": "^4.2.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",

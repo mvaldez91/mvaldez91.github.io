@@ -1,15 +1,16 @@
 import React from 'react';
 
-const Skills = ({children})=>(
+const Skills = props =>(
     <div className="Skills">
         <div className="Skills-container">
-            <div className="Skills-item">
-                <h5>HTML</h5>
-                <div className="Skills-line">
-                    <span>95%</span>
+            {props.data.map((skill, index)=>
+                <div className="Skills-item" key={`Skills-${index}`}>
+                    <h5>{skill.name}</h5>
+                    <div className="Skills-line">
+                        <span>{skill.percentage}</span>
+                    </div>
                 </div>
-            </div>
-
+            )}
         </div>
     </div>
 );
