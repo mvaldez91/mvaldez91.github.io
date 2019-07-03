@@ -21,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
 
 const App = () => {
     const data = useGetData();
-    console.log(data)
     return data.length == 0 ? <h1>Cargando ...</h1> : (
         <Main>
             <GlobalStyle></GlobalStyle>
@@ -41,7 +40,6 @@ const App = () => {
                     <Experience data={data.experience} />
                     <Certificate data={data.certificate} />
                     <Skills data={data.skills} />
-
                 </Info>
            
         </Main>
