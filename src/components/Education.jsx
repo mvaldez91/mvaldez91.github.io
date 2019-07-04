@@ -10,7 +10,7 @@ const Education = props =>(
             <div className="Education-container">
                 {props.data.map((edu,idx) =>
                     <div className="Education-item" key={`Edu-${idx}`}>
-                        <H3Styled>{edu.degree} {edu.institution}
+                        <H3Styled>{edu.degree} - {edu.institution}
                         </H3Styled>
                         <span>{edu.startDate} - {edu.endDate}</span>
                         <PStyled name={edu.description} />
