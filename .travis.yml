@@ -15,5 +15,4 @@ deploy:
   github-token: $github_token
   local-dir: dist/
   commit_message: "Deploy release ${TRAVIS_TAG}"
-  on: 
-    branch: master
+  target_branch: master
